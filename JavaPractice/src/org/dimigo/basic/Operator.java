@@ -8,7 +8,7 @@ package org.dimigo.basic;
  * org.dimigo.basic
  *   |_Operator
  *
- * 1. 개요:
+ * 1. 개요:디미베네 연간 인건비 계산
  * 2. 작성일:2017. 3. 13.
  * </pre>
  *
