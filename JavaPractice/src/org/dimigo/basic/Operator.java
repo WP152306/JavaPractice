@@ -28,7 +28,7 @@ public class Operator {
 		System.out.printf("월 평균 급여 : %,d\n원", money);
 		System.out.printf("점포 내 직원 수 : %,d\n", j);
 		System.out.printf("점포 수 : %,d개\n", jumpo);
-		System.out.printf("연간 인건비 : %,d", (long)money*12*j*jumpo);
+		System.out.printf("연간 인건비 : %,d원", (long)money*12*j*jumpo);
 	}
 
 }
