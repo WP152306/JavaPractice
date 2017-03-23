@@ -23,6 +23,8 @@ public class CarTest {
 	public static void main(String[] args) {
 		Car car = new Car();
 		
+		System.out.println("<<자동차 목록>>");
+		
 		System.out.println("제조사명 : "+car.getCompnay());
 		System.out.println("모델명 : "+car.getModel());
 		System.out.println("색상 : " + car.getColor());
