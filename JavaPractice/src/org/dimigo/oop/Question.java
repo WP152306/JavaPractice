@@ -28,6 +28,7 @@ public class Question {
 		Scanner scanner = new Scanner(System.in);
 		
 		for(int i = 0; i<3; i++){
+			System.out.printf("%d.", i+1);
 			System.out.println(questions[i]);
 			String answer = scanner.nextLine();
 			if(answer.equals(answers[i])){
