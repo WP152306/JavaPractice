@@ -24,7 +24,7 @@ public class MelonChart {
 		List<Music> list = new ArrayList<Music>();
 		list.add(new Music("I LUV IT", "PSY"));
 		list.add(new Music("맞지?", "언니쓰"));
-		System.out.println("-- << 멜론 차트 >> --");
+		System.out.println("-- << 멜론 챠트 >> --");
 		printList(list);
 		
 		list.add(1,new Music("SIGNAL","트와이스"));
