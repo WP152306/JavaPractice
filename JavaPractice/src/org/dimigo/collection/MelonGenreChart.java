@@ -40,7 +40,7 @@ public class MelonGenreChart {
 		printMap(map);
 		
 		System.out.println("-- << 댄스 1위 곡 삭제 >> --");
-		bList.remove(0);
+		dList.remove(0);
 		printMap(map);
 		
 		System.out.println("-- << 전체 리스트 삭제 >> --");
