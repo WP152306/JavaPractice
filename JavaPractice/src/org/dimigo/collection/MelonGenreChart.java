@@ -27,24 +27,22 @@ public class MelonGenreChart {
 		List<Music> dList = new ArrayList<Music>();
 		dList.add(new Music("I LUV IT", "PSY"));
 		dList.add(new Music("맞지?", "언니쓰"));
-		
 		Map<String, List<Music>> map = new HashMap<>();
 		map.put("발라드", bList);
 		map.put("댄스", dList);
-		
 		System.out.println("-- << 멜론 장르별 차트 >> --");
 		printMap(map);
 		
-		System.out.println("-- << 댄스 2위 곡 변경 >> --");
 		dList.set(1, new Music("SIGNAL", "트와이스"));
+		System.out.println("-- << 댄스 2위 곡 변경 >> --");
 		printMap(map);
 		
-		System.out.println("-- << 댄스 1위 곡 삭제 >> --");
 		dList.remove(0);
+		System.out.println("-- << 댄스 1위 곡 삭제 >> --");
 		printMap(map);
 		
-		System.out.println("-- << 전체 리스트 삭제 >> --");
 		map.clear();
+		System.out.println("-- << 전체 리스트 삭제 >> --");
 		printMap(map);
 	}
 	
